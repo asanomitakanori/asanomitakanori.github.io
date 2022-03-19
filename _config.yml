@@ -2,3 +2,8 @@ theme: jekyll-theme-hacker
 google_analytics: G-22H9TVS716
 plugins:
   - jekyll-sitemap
+
+sitemap:
+    path: sitemap.xml
+    template: ./sitemap_template.xml
+    rel: false
