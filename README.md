@@ -1,1 +1,2 @@
-# asanomitakanori.github.io
+#自己紹介用サイト
+##就活に使えるかなあと思って作りました。
