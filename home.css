@@ -228,6 +228,7 @@ li {
   width: 100%;
 }
 
+
 /* iOS対策 */
 .ios .gnav-link:after,
 .ios .gnav-link:hover:after {
@@ -315,8 +316,8 @@ li {
 
     .gnav-item {
       margin-top: 1em;	
-      font-size: 15px;
-      /*padding: 2px 15px;*/
+      font-size: 13px;
+      padding: 2px 15px;
       /*width: 10000px;*/
     }
 
