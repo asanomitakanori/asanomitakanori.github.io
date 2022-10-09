@@ -90,8 +90,8 @@ li {
 	border-bottom: 1px solid #e5e5e5;
 	padding: .5em 0;
 }
+
 .section2 {
-	/*border-bottom: 1px solid #e5e5e5;*/
 	padding: .5em 0;
 }
 
@@ -202,9 +202,10 @@ li {
   position: relative;
   display: inline-block;
   padding: 5px 0;
+  top: 20%;
   -webkit-transition: .3s;
   transition: .3s;
-  color: #333;
+  color: #555;
 }
 
 .gnav-link:hover {
@@ -226,6 +227,38 @@ li {
 
 .gnav-link:hover:after {
   width: 100%;
+}
+
+.slow-spin {
+  -webkit-animation: fa-spin 3s linear;
+  animation: fa-spin 3s linear;
+}
+
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+    background: #efefef;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
 }
 
 

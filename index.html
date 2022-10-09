@@ -3,7 +3,7 @@
 
 <html>
 <head>
-	<meta charset="utf-8">
+	  <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,9 +12,10 @@
     <meta name="author" content="Takanori Asanomi">
     <title>浅海 標徳 - Takanori Asanomi</title>
     <link rel="stylesheet" href="css/color.css">
-	<link rel="stylesheet" type="text/css" href="home.css">
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+	  <link rel="stylesheet" type="text/css" href="home.css">
+	  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
     <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-animation.min.css">
     <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 </head>
 
@@ -48,7 +49,7 @@
     <nav class="gnav">
       <ul class="gnav-list">
         <li class="gnav-item"><a class="gnav-link" href="#About">About</a></li>
-        <li class="gnav-item"><a class="gnav-link" href="#skills">Skills</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#favorites">Favorites</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#papers">Papers</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#award">Award</a></li>
         <!-- <li class="gnav-item"><a class="gnav-link" href="#contact">Contact</a></li> -->
@@ -67,7 +68,6 @@
             </div>
             <div class="profile-info">
                 <h1 id="hello_header" class="sec">Takanori Asanomi</h1>
-
                 <p> takanori.asanomi (at) human.ait.kyushu-u.ac.jp </p>
                 <p>
                     <a href="https://www.linkedin.com/in/takanoriasanomi/"><i class="fa-brands fa-linkedin fa-lg"></i></a> Linkedin
@@ -82,7 +82,7 @@
         <!-- About -->
         <section id="About" class="container section">
           <div class="section">
-    		<h2 id="bio">About</h2>
+    		  <h2 id="bio">About</h2>
     		<ul>
                 <li>
                 I'm Master student in Kyushu University. My current research focuses on generative models and unsupervised learning.
@@ -104,18 +104,17 @@
 
 
         <!-- Skills -->
-
-        <section id="skills" class="container section">
+        <section id="favorites" class="container section">
             <div class="row section__resume progress-list js-progress-list">
               <div class="col-md-12">
-                <h2 id="bio">Skills</h2>
+                <h2 id="bio">Favorites</h2>
               </div>
 
               <div class="col-md-5 mr-auto">
                 <div class="container section2">
                 <div class="progress-list__skill">
                   <p>
-                    <i class="fa-brands fa-python fa-lg"></i>&nbsp Python
+                    <i class="fa-brands fa-python fa-lg" style="color: darkslateblue;"></i>&nbsp Python
                     <!-- <span class="progress-list__skill-title">Python</span> -->
                     <span class="progress-list__skill-value">70%</span>
                   </p>
@@ -127,7 +126,7 @@
 
                 <div class="progress-list__skill">
                   <p>
-                    <i class="fa-brands fa-html5 fa-lg"></i>&nbsp HTML & CSS
+                    <i class="fa-brands fa-html5 fa-lg" style="color: darkslateblue;"></i>&nbsp HTML & CSS
                     <!-- <span class="progress-list__skill-title">HTML & CSS</span> -->
                     <span class="progress-list__skill-value">40%</span>
                   </p>
@@ -145,7 +144,7 @@
               <div class="progress-list__skill">
                 <p>
                   <!-- <span class="progress-list__skill-title">Raspberry-pi</span> -->
-                  <i class="fa-brands fa-raspberry-pi fa-lg"></i>&nbsp Raspberry-pi
+                  <i class="fa-brands fa-raspberry-pi fa-lg" style="color: darkslateblue;"></i>&nbsp Raspberry-pi
                   <span class="progress-list__skill-value">10%</span>
                 </p>
                 <div class="progress">
@@ -158,7 +157,7 @@
               <div class="progress-list__skill">
                 <p>
                  <!-- <span class="progress-list__skill-title">Travel</span> -->
-                 <i class="fa-solid fa-plane fa-lg"></i>&nbsp Travel
+                 <i class="fa-solid fa-plane fa-lg" style="color: darkslateblue;"></i>&nbsp Travel
                  <span class="progress-list__skill-value">80%</span>
                 </p>
                 <div class="progress">
@@ -217,21 +216,25 @@
                     </p>
                 </li>
     		    </ul>
-
           </div>
         </section>
 
 
+        <!--Award-->   
         <section id="award" class="container section">
           <div class="section">
-    		<h2 id="award">Award</h2>
-            <!-- <h2 id="hello_header" class="section__title">Papers</h2> -->
-    		<ul>
-          <li> <strong>Best Presenation Award</strong><br/>電子情報通信学会 パターン認識・メディア理解研究会 (PRMU) 2021</li>
+    		  <h2 id="award">Award</h2>
+    		     <ul>
+                 <li> <strong>Best Presenation Award</strong><br/>電子情報通信学会 パターン認識・メディア理解研究会 (PRMU) 2021</li>
+                 <li> <strong>JEES・ソフトバンクAI人材育成奨学金</strong><br/>Softbank 2021 </li> 
             </ul>
+
          </div>
         </section>
+        <!--Award--> 
 
+
+        <!--Contact-->   
         <section id="contact" class="container section">
           <div class="section">
             <h2 id="talks">Contact</h2>
@@ -243,6 +246,7 @@
             </ul>
          </div>
         </section>
+        <!--Contact-->   
 
     </div>
 
